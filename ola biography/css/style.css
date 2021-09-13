@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #242524;
+}
+li, a {
+    font-family: 'montserrat', sans-serif;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.logo{
+    width: 100px;
+    height: 96px;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    list-style: none;
+    padding-top: 0px;
+    padding-left: 40px;
+}
+.navlinks li {
+    display: inline-block;
+    
+}
+*{
+    background: url(../assets/20210718_134955.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover {
+   color: brown;
+}
